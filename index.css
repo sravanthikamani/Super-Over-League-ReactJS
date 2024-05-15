@@ -1,0 +1,28 @@
+/* Write your code here. */
+.backgroundColor {
+  background-color: #0f172a;
+  background-size: cover;
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  height:100vh;
+}
+.heading {
+  color: white;
+  text-align: center;
+}
+.imageContainer {
+  display: flex;
+  flex-direction: row;
+ justify-content: center;
+}
+.images {
+  height: 150px;
+  width: 100px;
+}
+@media screen and (max-width: 576px) {
+.images {
+  height: 50px;
+  width: 50px;
+}
+}
